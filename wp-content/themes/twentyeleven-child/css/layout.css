@@ -53,6 +53,11 @@ body {
     overflow:hidden;
 }
 
+.singular #content,
+.left-sidebar.singular #content {
+margin: auto;
+}
+
 .post-thumb {
     float:left;
     width:300px;
@@ -70,6 +75,15 @@ body {
 .post-thumb a:hover {
     text-decoration:none;
 }
+
+#PostWrapper{
+	width: auto;
+	margin-top:20px;
+	font-family: Helvetica, Arial, sans-serif;
+	color:#FFFFFF;
+	font-weight:100;
+}
+
 
 /**
  * Titles
@@ -106,4 +120,17 @@ body {
     background:#A04B74;
 }
 
+/**
+ * Single Post View
+ */
 
+.single .entry-title{
+	font-family: Helvetica, Arial,sans-serif;
+	font-size:36px;
+	font-weight:bold;	
+	color:#FFF;
+}
+
+#respond{
+	width: auto;
+}
