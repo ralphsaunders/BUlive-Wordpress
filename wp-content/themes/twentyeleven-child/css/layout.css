@@ -47,9 +47,9 @@ body {
  * Wrappers
  */
 #content {
-    width:960px;
+    width:988px;
     margin:0;
-    margin-left:-20px;
+    margin-left:-28px;
     overflow:hidden;
 }
 
@@ -58,7 +58,7 @@ body {
     width:300px;
     height:200px;
     display:block;
-    margin-left:20px;
+    margin-left:29px;
     border:none;
 }
 
@@ -106,4 +106,22 @@ body {
     background:#A04B74;
 }
 
+/**
+ * Video
+ */
+#video {
+    position:relative;
+    margin-bottom:28px;
+}
 
+#play {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-100px;
+    margin-top:-100px;
+}
+
+#video img {
+    vertical-align:bottom;
+}

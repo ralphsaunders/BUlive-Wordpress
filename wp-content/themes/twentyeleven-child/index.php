@@ -15,18 +15,26 @@
 get_header(); ?>
 
         <div id="primary">
-            <div class="post-thumbs" id="content" role="main">
 
-                <div id="video" style="text-align:center;">
-                    <script type="text/javascript">
-                        function play(){
-                            document.getElementById("img").style.display='none';
-                            document.getElementById('video').innerHTML = '<iframe width="960" height="320" src="http://cdn.livestream.com/embed/bustationnet?layout=4&color=0x000000&autoPlay=true&mute=false&iconColorOver=0xe7e7e7&iconColor=0xcccccc&allowchat=true&height=340&width=560" style="border:0;outline:0" frameborder="0" scrolling="no"></iframe>';
-                        }
-                    </script>
-                    <img src="images/scape.jpg" style="z-index:1;" height="320"/>
-                    <img src="<?php echo bloginfo( 'stylesheet_directory' ); ?>/img/play_thumb.png" style="z-index:10;position:absolute;top:170px; left:50%; margin-left:-100px;" onclick="play()" id="img"/>
-                </div>
+            <div id="video">
+                <script type="text/javascript">
+                    $( document ).ready( function() {
+                        $( '#play' ).click( function( e ) {
+                            e.preventDefault();
+                            play();
+                        });
+                    });
+
+                    function play() {
+                        document.getElementById("play").style.display='none';
+                        document.getElementById('video').innerHTML = '<iframe width="960" height="540" src="http://cdn.livestream.com/embed/bustationnet?layout=4&color=0x000000&autoPlay=true&mute=false&iconColorOver=0xe7e7e7&iconColor=0xcccccc&allowchat=true&height=340&width=560" style="border:0;outline:0" frameborder="0" scrolling="no"></iframe>';
+                    }
+                </script>
+                <img class="placeholder" src="<?php echo bloginfo( 'stylesheet_directory' ); ?>/img/video-placeholder.png" style="z-index:1;"/>
+                <img id="play" src="<?php echo bloginfo( 'stylesheet_directory' ); ?>/img/play_thumb.png" />
+            </div>
+
+            <div class="post-thumbs" id="content" role="main">
 
             <?php if ( have_posts() ) : ?>
 
