@@ -54,6 +54,7 @@
 
 <!-- Javascript -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="<?php echo bloginfo( 'stylesheet_directory' ); ?>/js/url-mapper.js" type="text/javascript" charset="utf-8"></script>
 
 <?php
 	/* We add some JavaScript to pages with the comment form
@@ -90,4 +91,38 @@
         </nav><!-- #access -->
     </header>
 
-	<div id="main">
+    <div id="video">
+        <script type="text/javascript">
+            $( document ).ready( function() {
+
+                var videoHeight;
+
+                $( '.placeholder' ).load( function() {
+                    videoHeight = $( '.placeholder' ).height();
+                });
+
+                $( '#video' ).css( { 'height' : 100 } );
+
+                $( '#play' ).click( function( e ) {
+                    e.preventDefault();
+                    play();
+                });
+
+                function play() {
+                    document.getElementById("play").style.display='none';
+
+                    $( '#video' ).animate( { 'height' : videoHeight }, 300, function() {
+                        $( '#video' ).append( '<iframe width="960" height="540" src="http://cdn.livestream.com/embed/bustationnet?layout=4&color=0x000000&autoPlay=true&mute=false&iconColorOver=0xe7e7e7&iconColor=0xcccccc&allowchat=true&height=340&width=560" style="position:absolute; top:0; left:0; border:0;outline:0; z-index:-1;" frameborder="0" scrolling="no"></iframe>' );
+
+                        $( '.placeholder' ).fadeOut( 300 );
+                    } );
+                }
+
+            });
+        </script>
+
+        <img class="placeholder" src="<?php echo bloginfo( 'stylesheet_directory' ); ?>/img/video-placeholder.png" style="z-index:1;"/>
+        <img id="play" src="<?php echo bloginfo( 'stylesheet_directory' ); ?>/img/play_thumb.png" />
+    </div>
+
+    <div id="main">

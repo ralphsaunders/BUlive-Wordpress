@@ -2,12 +2,14 @@
 /**
  * The template for displaying Category Archive pages.
  *
+ * Note: Loaded via JS, no need for header or footer
+ *
  * @package WordPress
  * @subpackage Twenty_Eleven
  * @since Twenty Eleven 1.0
  */
 
-get_header(); ?>
+?>
 
 		<section id="primary">
 			<?php if ( have_posts() ) : ?>
@@ -27,5 +29,3 @@ get_header(); ?>
             <?php get_template_part( 'content', 'thumbs' ); ?>
 
 		</section><!-- #primary -->
-
-<?php get_footer(); ?>

@@ -2,11 +2,11 @@
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /BUlive-Wordpress/
+RewriteBase /bulive/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /BUlive-Wordpress/index.php [L]
+RewriteRule . /bulive/index.php [L]
 </IfModule>
 
 # END WordPress
