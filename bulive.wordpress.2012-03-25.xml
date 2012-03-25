@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/3.3.1" created="2012-03-25 20:15" -->
+<!-- generator="WordPress/3.3.1" created="2012-03-25 23:48" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.1/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>BUlive</title>
 	<link>http://localhost:8888/bulive</link>
 	<description>Just another WordPress site</description>
-	<pubDate>Sun, 25 Mar 2012 20:15:37 +0000</pubDate>
+	<pubDate>Sun, 25 Mar 2012 23:48:17 +0000</pubDate>
 	<language>en</language>
 	<wp:wxr_version>1.1</wp:wxr_version>
 	<wp:base_site_url>http://localhost:8888/bulive</wp:base_site_url>
@@ -228,7 +228,13 @@ As a new WordPress user, you should go to <a href="http://localhost:8888/bulive/
 		<dc:creator>ralphsaunders</dc:creator>
 		<guid isPermaLink="false">http://localhost:8888/bulive/?p=11</guid>
 		<description></description>
-		<content:encoded><![CDATA[Academia is quite dull sometimes.]]></content:encoded>
+		<content:encoded><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.
+
+Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.
+
+Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu pulvinar risus, vitae facilisis libero dolor a purus. Sed vel lacus. Mauris nibh felis, adipiscing varius, adipiscing in, lacinia vel, tellus. Suspendisse ac urna. Etiam pellentesque mauris ut lectus. Nunc tellus ante, mattis eget, gravida vitae, ultricies ac, leo. Integer leo pede, ornare a, lacinia eu, vulputate vel, nisl.
+
+Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet mi ullamcorper vehicula. Integer adipiscing risus a sem. Nullam quis massa sit amet nibh viverra malesuada. Nunc sem lacus, accumsan quis, faucibus non, congue vel, arcu. Ut scelerisque hendrerit tellus. Integer sagittis. Vivamus a mauris eget arcu gravida tristique. Nunc iaculis mi in ante. Vivamus imperdiet nibh feugiat est.]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>11</wp:post_id>
 		<wp:post_date>2012-03-25 18:54:20</wp:post_date>
@@ -251,6 +257,48 @@ As a new WordPress user, you should go to <a href="http://localhost:8888/bulive/
 			<wp:meta_key>_thumbnail_id</wp:meta_key>
 			<wp:meta_value><![CDATA[14]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:comment>
+			<wp:comment_id>2</wp:comment_id>
+			<wp:comment_author><![CDATA[ralphsaunders]]></wp:comment_author>
+			<wp:comment_author_email>e@ralphsaunders.co.uk</wp:comment_author_email>
+			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_IP>::1</wp:comment_author_IP>
+			<wp:comment_date>2012-03-25 23:33:11</wp:comment_date>
+			<wp:comment_date_gmt>2012-03-25 23:33:11</wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[Imma Comment]]></wp:comment_content>
+			<wp:comment_approved>1</wp:comment_approved>
+			<wp:comment_type></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>1</wp:comment_user_id>
+		</wp:comment>
+		<wp:comment>
+			<wp:comment_id>3</wp:comment_id>
+			<wp:comment_author><![CDATA[ralphsaunders]]></wp:comment_author>
+			<wp:comment_author_email>e@ralphsaunders.co.uk</wp:comment_author_email>
+			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_IP>::1</wp:comment_author_IP>
+			<wp:comment_date>2012-03-25 23:33:21</wp:comment_date>
+			<wp:comment_date_gmt>2012-03-25 23:33:21</wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[Does this comment look OK?]]></wp:comment_content>
+			<wp:comment_approved>1</wp:comment_approved>
+			<wp:comment_type></wp:comment_type>
+			<wp:comment_parent>2</wp:comment_parent>
+			<wp:comment_user_id>1</wp:comment_user_id>
+		</wp:comment>
+		<wp:comment>
+			<wp:comment_id>4</wp:comment_id>
+			<wp:comment_author><![CDATA[ralphsaunders]]></wp:comment_author>
+			<wp:comment_author_email>e@ralphsaunders.co.uk</wp:comment_author_email>
+			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_IP>::1</wp:comment_author_IP>
+			<wp:comment_date>2012-03-25 23:33:27</wp:comment_date>
+			<wp:comment_date_gmt>2012-03-25 23:33:27</wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[Seems to.]]></wp:comment_content>
+			<wp:comment_approved>1</wp:comment_approved>
+			<wp:comment_type></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>1</wp:comment_user_id>
+		</wp:comment>
 	</item>
 	<item>
 		<title>Screen Shot 2012-02-29 at 02.17.18</title>
@@ -635,61 +683,6 @@ As a new WordPress user, you should go to <a href="http://localhost:8888/bulive/
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>Home</title>
-		<link>http://localhost:8888/bulive/uncategorized/home/</link>
-		<pubDate>Sun, 25 Mar 2012 19:38:24 +0000</pubDate>
-		<dc:creator>ralphsaunders</dc:creator>
-		<guid isPermaLink="false">http://localhost:8888/bulive/?p=30</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>30</wp:post_id>
-		<wp:post_date>2012-03-25 19:38:24</wp:post_date>
-		<wp:post_date_gmt>2012-03-25 19:38:24</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>home</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>1</wp:menu_order>
-		<wp:post_type>nav_menu_item</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="navigation"><![CDATA[Navigation]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_type</wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object_id</wp:meta_key>
-			<wp:meta_value><![CDATA[30]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object</wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_target</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_classes</wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_xfn</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_url</wp:meta_key>
-			<wp:meta_value><![CDATA[http://localhost:8888/bulive/]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
 		<title>My New Post</title>
 		<link>http://localhost:8888/bulive/community/my-new-post/</link>
 		<pubDate>Sun, 25 Mar 2012 20:06:00 +0000</pubDate>
@@ -749,6 +742,91 @@ As a new WordPress user, you should go to <a href="http://localhost:8888/bulive/
 		<wp:postmeta>
 			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
 			<wp:meta_value><![CDATA[a:6:{s:5:"width";s:3:"302";s:6:"height";s:3:"314";s:14:"hwstring_small";s:22:"height='96' width='92'";s:4:"file";s:47:"2012/03/Screen-Shot-2012-03-17-at-18.34.381.png";s:5:"sizes";a:5:{s:9:"thumbnail";a:3:{s:4:"file";s:47:"Screen-Shot-2012-03-17-at-18.34.381-300x200.png";s:5:"width";s:3:"300";s:6:"height";s:3:"200";}s:6:"medium";a:3:{s:4:"file";s:47:"Screen-Shot-2012-03-17-at-18.34.381-288x300.png";s:5:"width";s:3:"288";s:6:"height";s:3:"300";}s:14:"post-thumbnail";a:3:{s:4:"file";s:47:"Screen-Shot-2012-03-17-at-18.34.381-302x288.png";s:5:"width";s:3:"302";s:6:"height";s:3:"288";}s:13:"large-feature";a:3:{s:4:"file";s:47:"Screen-Shot-2012-03-17-at-18.34.381-302x288.png";s:5:"width";s:3:"302";s:6:"height";s:3:"288";}s:13:"small-feature";a:3:{s:4:"file";s:47:"Screen-Shot-2012-03-17-at-18.34.381-288x300.png";s:5:"width";s:3:"288";s:6:"height";s:3:"300";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Aggregate Content</title>
+		<link>http://localhost:8888/bulive/aggregate-content/</link>
+		<pubDate>Sun, 25 Mar 2012 22:44:05 +0000</pubDate>
+		<dc:creator>ralphsaunders</dc:creator>
+		<guid isPermaLink="false">http://localhost:8888/bulive/?page_id=35</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>35</wp:post_id>
+		<wp:post_date>2012-03-25 22:44:05</wp:post_date>
+		<wp:post_date_gmt>2012-03-25 22:44:05</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>aggregate-content</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[aggregate-template.php]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Home</title>
+		<link>http://localhost:8888/bulive/uncategorized/home-2/</link>
+		<pubDate>Sun, 25 Mar 2012 22:44:41 +0000</pubDate>
+		<dc:creator>ralphsaunders</dc:creator>
+		<guid isPermaLink="false">http://localhost:8888/bulive/?p=38</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>38</wp:post_id>
+		<wp:post_date>2012-03-25 22:44:41</wp:post_date>
+		<wp:post_date_gmt>2012-03-25 22:44:41</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>home-2</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type>nav_menu_item</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="navigation"><![CDATA[Navigation]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_type</wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object_id</wp:meta_key>
+			<wp:meta_value><![CDATA[35]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object</wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_target</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_classes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_xfn</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 </channel>
