@@ -11,6 +11,7 @@ body {
 
 .header {
     overflow:hidden;
+    margin-bottom:30px;
 }
 
 .logo {
@@ -47,9 +48,9 @@ body {
  * Wrappers
  */
 #content {
-    width:988px;
+    width:988px!important;
     margin:0;
-    margin-left:-28px;
+    margin-left:-28px!important;
     overflow:hidden;
 }
 
@@ -61,7 +62,7 @@ margin: auto;
 .post-thumb {
     float:left;
     width:300px;
-    height:200px;
+    height:176px;
     display:block;
     margin-left:29px;
     border:none;
@@ -75,15 +76,6 @@ margin: auto;
 .post-thumb a:hover {
     text-decoration:none;
 }
-
-#PostWrapper{
-	width: auto;
-	margin-top:20px;
-	font-family: Helvetica, Arial, sans-serif;
-	color:#FFFFFF;
-	font-weight:100;
-}
-
 
 /**
  * Titles
@@ -126,6 +118,7 @@ margin: auto;
 #video {
     position:relative;
     margin-bottom:28px;
+    overflow:hidden;
 }
 
 #play {
@@ -150,3 +143,71 @@ margin: auto;
 #respond{
 	width: auto;
 }
+
+#nav-single {
+    width:200px;
+    margin-top:35px;
+}
+
+#nav-single a, #nav-below a {
+    color:#fff;
+}
+
+#PostWrapper{
+	width: 600px;
+    float:left;
+	font-family: Helvetica, Arial, sans-serif;
+	color:#FFFFFF;
+	font-weight:100;
+}
+
+#comments {
+    clear:both;
+}
+
+#menu-item-38 {
+    background: url( ../img/nav/gray.jpg ) bottom repeat-x;
+}
+
+#menu-item-27 {
+    background: url( ../img/nav/blue.jpg ) bottom repeat-x;
+}
+
+#menu-item-28 {
+    background: url( ../img/nav/yellow.jpg ) bottom repeat-x;
+}
+
+#menu-item-29 {
+    background: url( ../img/nav/pink.jpg ) bottom repeat-x;
+}
+
+
+#access li:hover > a {
+    background:transparent;
+    color:#fff;
+}
+
+#access li {
+    margin-left:30px;
+}
+
+#site-generator {
+    background:transparent;
+    border-top:1px solid #525252;
+}
+
+#site-generator a {
+    color:#ADADAD;
+}
+
+.commentlist .avatar {
+    -webkit-box-shadow:none;
+    border-bottom:1px solid #454545;
+}
+
+.singular .hentry {
+    padding:0;
+    height:200px;
+}
+
+
