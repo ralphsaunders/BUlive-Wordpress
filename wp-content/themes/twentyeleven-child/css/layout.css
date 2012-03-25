@@ -1,0 +1,109 @@
+body {
+    background:#2A2A2A;
+    padding:0;
+}
+
+#page {
+    background:transparent;
+    margin:0 auto;
+    width:960px;
+}
+
+.header {
+    overflow:hidden;
+}
+
+.logo {
+    float:left;
+}
+
+#access {
+    width:auto;
+    background:transparent;
+    float:right;
+    margin:0;
+    box-shadow:none;
+    clear:none;
+    margin-top:16px;
+}
+
+#access div {
+    margin:0;
+}
+
+#access ul {
+    font-size:16px;
+}
+
+/**
+ * Post Thumbnails
+ *
+ * - Wrappers
+ * - Titles
+ * - Colours
+ */
+
+/*
+ * Wrappers
+ */
+#content {
+    width:960px;
+    margin:0;
+    margin-left:-20px;
+    overflow:hidden;
+}
+
+.post-thumb {
+    float:left;
+    width:300px;
+    height:200px;
+    display:block;
+    margin-left:20px;
+    border:none;
+}
+
+.post-thumb a {
+    display:block;
+    position:relative;
+}
+
+.post-thumb a:hover {
+    text-decoration:none;
+}
+
+/**
+ * Titles
+ */
+.post-thumb .entry-title {
+    position:absolute;
+    top:0;
+    left:0;
+    padding:20px;
+    color:#fff;
+}
+
+/**
+ * Colours
+ */
+.post-thumb img {
+    opacity:0.5;
+    -webkit-transition: all ease 0.2s;
+}
+
+.post-thumb:hover img {
+    opacity:0.1;
+}
+
+.campus {
+    background:#477597;
+}
+
+.academic {
+    background:#C6A84E;
+}
+
+.community {
+    background:#A04B74;
+}
+
+

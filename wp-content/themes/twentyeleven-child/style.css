@@ -1,0 +1,13 @@
+/*
+    Theme Name:     BUlive Theme
+    Theme URI:      http://bulive.com/
+    Description:    A Wordpress Theme for the BUlive website
+    Author:         Ralph Saunders & Matt Cheetham
+    Author URI:     http://ralphsaunders.co.uk/, http://mattcheetham.co.uk/
+    Template:       twentyeleven
+    Version:        0.1.0
+*/
+
+@import url("../twentyeleven/style.css"); /* Twenty Eleven Styles */
+@import "css/typography.css";             /* Typography Styles */
+@import "css/layout.css";                 /* Layout Styles */
